@@ -1,0 +1,25 @@
+.container {
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 20px 0 20px 0;
+}
+
+.container:hover {
+  border-color: var(--borderColorHover);
+}
+
+.postLink {
+  text-decoration: none;
+  color: var(--textColor);
+  padding: 0 30px 0 30px;
+}
+
+.postLink:hover {
+  color: var(--textColor);
+}
+
+.title {
+  margin: 0;
+  font-size: 24px;
+  text-align: start;
+}

@@ -1,0 +1,5 @@
+.genreLink {
+  text-decoration: none;
+  color: var(--textColor);
+  opacity: 40%;
+}

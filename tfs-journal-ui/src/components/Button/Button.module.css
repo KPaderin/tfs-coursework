@@ -1,0 +1,18 @@
+.button {
+  background-color: inherit;
+  outline: none;
+  border: 2px solid var(--borderColor);
+  border-radius: 5px;
+  color: var(--buttonTextColor);
+  cursor: pointer;
+  padding: 5px;
+}
+
+.button:hover,
+.button:active {
+  border-color: var(--borderColorHover);
+}
+
+.button:active {
+  background-color: var(--buttonBackgroundColor);
+}

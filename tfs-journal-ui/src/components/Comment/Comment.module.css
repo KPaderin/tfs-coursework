@@ -1,0 +1,42 @@
+.container {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  margin: 0 20px 0 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.comment {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.userName {
+  margin: 0;
+  padding-right: 10px;
+  text-decoration: none;
+  color: var(--textColor);
+}
+
+.date,
+.userName {
+  height: 16px;
+  line-height: 16px;
+  font-size: 16px;
+}

@@ -1,0 +1,57 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.titleInput {
+  border: 2px solid var(--borderColor);
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.titleInput:focus {
+  outline: none;
+  border-color: var(--borderColorHover);
+}
+
+.editButton,
+.submitButton,
+.closeButton {
+  margin-left: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: inherit;
+  height: 15px;
+  width: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+}
+
+.editButton {
+  background-image: url('../../assets/pencil.svg');
+}
+
+.submitButton {
+  background-image: url('../../assets/checkmark.svg');
+}
+
+.closeButton {
+  margin-left: 5px;
+  background-image: url('../../assets/delete.svg');
+}
+
+.row[data-edit='false'] .editButton,
+.row[data-edit='false'] .title {
+  display: flex;
+}
+
+.row[data-edit='true'] .submitButton,
+.row[data-edit='true'] .closeButton,
+.row[data-edit='true'] .inputEdit {
+  display: flex;
+}

@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.titleInput {
+  border: 2px solid var(--borderColor);
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.titleInput:focus {
+  outline: none;
+  border-color: var(--borderColorHover);
+}
+
+.editor {
+  padding: 15px 0 15px 0;
+}
+
+.rowButton {
+  display: flex;
+}
+
+.imgInput {
+  margin-top: 15px;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 0;
+  border: 2px solid var(--borderColor);
+  cursor: pointer;
+}
+
+.imgInput:hover,
+.imgInput:active {
+  border-color: var(--borderColorHover);
+}
+
+.sendButton {
+  max-width: 30%;
+  min-width: fit-content;
+  width: 100px;
+  margin-right: 12px;
+}

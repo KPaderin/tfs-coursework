@@ -1,0 +1,8 @@
+.pageContent {
+  display: flex;
+  text-align: center;
+  height: calc(100vh - 80px);
+  overflow: hidden scroll;
+  width: 100%;
+  flex-direction: column;
+}

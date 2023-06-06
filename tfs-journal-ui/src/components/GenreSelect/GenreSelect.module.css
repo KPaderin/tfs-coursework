@@ -1,0 +1,13 @@
+.genreSelect {
+  margin-top: 15px;
+  background-color: var(--backgroundColorLight);
+  border: 2px solid var(--borderColor);
+  border-radius: 5px;
+}
+
+.genreSelect option {
+  margin-top: 15px;
+  background-color: inherit;
+  border: 2px solid var(--borderColor);
+  border-radius: 5px;
+}

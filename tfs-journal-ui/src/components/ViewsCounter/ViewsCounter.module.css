@@ -1,0 +1,9 @@
+.container {
+  opacity: 40%;
+  min-width: fit-content;
+}
+
+.viewersImg {
+  height: 12px;
+  padding-right: 6px;
+}

@@ -1,0 +1,33 @@
+.limitedContainer {
+  padding: 0;
+  flex-grow: 0;
+  background-color: inherit;
+}
+
+.mainContainer {
+  padding: 10px 10px 30px 10px;
+  border-top: 2px solid var(--borderColor);
+  display: flex;
+}
+
+.logout {
+  width: fit-content;
+  border: none;
+  background-color: inherit;
+  margin-left: auto;
+  cursor: pointer;
+  opacity: 40%;
+}
+.mainLink,
+.newPostLink {
+  color: var(--textColor);
+  opacity: 40%;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.mainLink:hover,
+.newPostLink:hover,
+.logout:hover {
+  opacity: 80%;
+}

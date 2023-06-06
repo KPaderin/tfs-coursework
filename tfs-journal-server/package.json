@@ -1,0 +1,49 @@
+{
+  "name": "tfs-journal-server",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "lint": "npx eslint src",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "npx prettier src --check",
+    "prettier:fix": "npm run prettier -- --write",
+    "format": "npm run prettier:fix && npm run lint:fix"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "google-auth-library": "^8.8.0",
+    "graphql": "^16.6.0",
+    "graphql-http": "^1.18.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.9.1",
+    "nanoid": "^4.0.2",
+    "sharp": "^0.32.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TFSchool/coursework-KPaderin.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/TFSchool/coursework-KPaderin/issues"
+  },
+  "homepage": "https://github.com/TFSchool/coursework-KPaderin#readme",
+  "description": "",
+  "type": "module"
+}

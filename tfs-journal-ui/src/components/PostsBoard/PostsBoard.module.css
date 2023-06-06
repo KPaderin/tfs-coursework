@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 760px;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  text-align: start;
+}
+
+.postForm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 24px 29px 24px 29px;
+}
+
+.postForm:hover {
+  border-color: var(--borderColorHover);
+}
+
+.postForm .newPost {
+  font-size: 18px;
+  line-height: 18px;
+  margin: 0;
+}
+
+.postForm .newPost {
+  opacity: 40%;
+}
+
+.accountImage {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.newPost {
+  text-decoration: none;
+  color: var(--textColor);
+}

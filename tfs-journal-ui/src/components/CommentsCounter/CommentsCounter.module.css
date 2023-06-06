@@ -1,0 +1,19 @@
+.commentsLink {
+  text-decoration: none;
+  color: var(--textColor);
+  opacity: 40%;
+}
+
+.commentsLink span {
+  display: flex;
+  align-items: center;
+}
+
+.commentsLink img {
+  height: 12px;
+  padding-right: 6px;
+}
+
+.commentsLink:hover {
+  opacity: 80%;
+}

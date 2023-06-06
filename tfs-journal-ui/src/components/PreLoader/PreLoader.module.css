@@ -1,0 +1,19 @@
+@keyframes changePoints {
+  0% {
+    content: ' ';
+  }
+  33% {
+    content: '.';
+  }
+  66% {
+    content: '..';
+  }
+  100% {
+    content: '...';
+  }
+}
+
+.loader::after {
+  animation: changePoints 2s linear infinite;
+  content: ' ';
+}

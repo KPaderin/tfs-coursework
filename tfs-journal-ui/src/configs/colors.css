@@ -1,0 +1,11 @@
+:root {
+  --backgroundColor: #f7f7f7;
+  --backgroundColorLight: white;
+  --textColor: black;
+  --placeholderColor: #b6b6b6;
+  --borderColor: rgb(229, 229, 229);
+  --borderColorHover: rgb(179, 179, 179);
+
+  --buttonTextColor: black;
+  --buttonBackgroundColor: #f7f7f7;
+}

@@ -1,0 +1,29 @@
+.container {
+  padding: 20px 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--borderColor);
+}
+
+.logo {
+  min-width: 100px;
+  width: 186px;
+}
+
+.accountButton {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-left: auto;
+  height: 35px;
+  width: 35px;
+}
+
+.accountImage {
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+}
